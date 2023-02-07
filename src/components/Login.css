@@ -1,0 +1,15 @@
+.form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 600px;
+}
+
+.form-inner{
+   border-radius: 20px;
+   padding: 30px;
+   background-color: #706e6e;
+   display: inline-block;
+   height: 90%;
+   width: 30%;
+}

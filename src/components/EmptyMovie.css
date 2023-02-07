@@ -1,0 +1,8 @@
+.empty__genres, .empty__id, .empty__title, .empty__summary, .empty__year{
+   display: block;
+   margin-top: 10px;
+   height: 8px;
+   width: 140px;
+   margin-bottom: 40px;
+   background-color: #adaeb9;
+}

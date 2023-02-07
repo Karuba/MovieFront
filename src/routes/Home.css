@@ -1,0 +1,53 @@
+* {
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #2e3841;
+   margin: 0;
+   padding: 0;
+   font-family: 'Nunito', sans-serif;
+}
+
+html, body, #root, .container{
+   height: 100%;
+   justify-content: center;
+}
+
+.loader{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 300;
+}
+
+.page{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30px;
+   color: #adaeb9;
+}
+.page .page-field{
+   height: 30px;
+   width: 30px;
+   align-items: center;
+   text-align: center;
+   cursor: wait;
+}
+.page .num{
+   padding-top: 4px;
+}
+.page .page-btn{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   border-radius: 100%;
+   background: #adaeb9;
+   cursor: pointer;
+}
+.page .page-btn:hover{
+   background-color: #8d8d8f;
+}
